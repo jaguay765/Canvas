@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="600" height="250" style="border: 1px solid black;"></canvas>
+</body>
+<script>
+    var canvas = document.getElementById("myCanvas")
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.strokeStyle = "yellow";
+    context.arc(canvas.width / 2, canvas.height / 2 + 30, 80, 2 * Math.PI, false );
+    context.stroke();
+
+    var canvas = document.getElementById("myCanvas")
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.strokeStyle = "yellow";
+    context.arc(canvas.width / 2, canvas.height / 2 + 30, 80, 1 * Math.PI, 1 * Math.PI, false );
+    context.stroke();
+
+    var canvas = document.getElementById("myCanvas")
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.strokeStyle = "yellow";
+    context.arc(canvas.width / 2, canvas.height / 2 + 30 , 80, 1.5 * Math.PI, 1.5 * Math.PI, false );
+    context.stroke();
+
+    var canvas = document.getElementById("myCanvas")
+    var context = canvas.getContext("2d");
+    context.lineWidth = 15;
+    context.strokeStyle = "blue";
+    context.arc(canvas.width / 2, canvas.height / 2 + 30 , 80, -1.5 * Math.PI, -1.5 * Math.PI, false );
+    context.stroke();
+
+   
+
+
+   
+</script>
+<h1>Fantastic Four Logo</h1>
+</body>
+</html>
